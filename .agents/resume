@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "resume ran at $(date -u +%FT%TZ) FULCRUM=$FULCRUM" >> /tmp/resume-marker
