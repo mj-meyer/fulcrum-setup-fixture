@@ -4,4 +4,5 @@ echo "fixture setup starting FULCRUM=$FULCRUM"
 sleep 5
 echo "warm $(date -u +%FT%TZ)" > /tmp/ignored
 echo "fixture-marker-v2" > /opt/fixture-marker 2>/dev/null || { sudo true 2>/dev/null; echo "cannot write /opt"; exit 3; }
-echo "setup done"
+echo "about to fail"
+exit 9
