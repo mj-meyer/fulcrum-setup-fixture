@@ -1,0 +1,5 @@
+services:
+  - name: web
+    command: node preview/server.mjs
+    port: 3000
+    health: /health
